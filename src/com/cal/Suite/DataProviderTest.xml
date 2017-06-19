@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParllelTest" >
+	<listeners>
+		<listener class-name="com.cal.listeners.TestListener"></listener>
+	</listeners>
+    <test name="DataProvidersTest">
+        <classes>
+            <class name="com.cal.Test.DataProviders"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MainTest">
+
+    <test name="Values with static">
+        <groups>
+            <run>
+                <exclude name="airthmaticTest"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cal.Test.MainTest"></class>
+        </classes>
+
+    </test>
+</suite>
